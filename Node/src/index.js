@@ -1,6 +1,6 @@
-import createServer from 'http';
+var http = requiere("http");
 
-var server = createServer(function(request, response){
+var server = http.createServer(function(request, response) {
 
     if(request.url==='/'){
         response.writeHead(200,{'Content-Type':'text/html'});
