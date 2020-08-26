@@ -18,4 +18,4 @@ var server = http.createServer(function (request, response) {
 
 server.listen(4000);
 
-console.log("Corriendo proyecto");
+console.log("Corriendo proyecto node");
